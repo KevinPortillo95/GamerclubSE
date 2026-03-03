@@ -4,7 +4,15 @@
     box-sizing: border-box;
 
 }
-header-gc{
-    display: flex;
-    background-color: black;
+
+body {
+    margin: 0;
+}
+
+.header-gc{
+    background-color: #0E0E0E;
+}
+
+.navbar-toggler{
+    
 }
