@@ -5,14 +5,12 @@
 
 }
 
-body {
-    margin: 0;
-}
-
 .header-gc{
     background-color: #0E0E0E;
 }
 
-.navbar-toggler{
-    
-}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #FD8600;
+    border-radius: 50%
+    }
