@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-.header-gc{
+.header-gc {
     background-color: #0E0E0E;
 }
 
@@ -13,4 +13,28 @@
 .carousel-control-next-icon {
     background-color: #FD8600;
     border-radius: 50%
-    }
+}
+
+.barrainferior {
+    background-color: #0E0E0E
+}
+
+.parrafoinferior {
+    color: #FDFDFD;
+}
+
+.spandr{
+    display: block
+}
+
+.listaredesinferior {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 0.5rem
+}
+
+.linkredesinferior{
+    color:#FD8600;
+    text-decoration: none;
+}
