@@ -121,6 +121,7 @@
     }
 }
 
+/* Quienes somos */
 
 .qstitulo {
     background-color: #0E0E0E;
@@ -158,6 +159,8 @@
     margin: 0 auto;
 }
 
+/* Donde encontrarnos */
+
 .donde-encontrarnos {
     background-color: #0E0E0E;
     padding: 2rem;
@@ -182,4 +185,45 @@
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+}
+
+/* Canje de Juegos */
+
+.canjedj {
+    background-color: #0E0E0E;
+    padding: 2rem;
+}
+
+.canjedjtitulo {
+    color: #FD8600;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.canjedjdescripcion {
+    color: #FD8600;
+    text-align: justify;
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.canjedjgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.canjedjimagen {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.canjedjtitulo, .canjedjconsola, .canjedjprecio {
+    color: #FD8600;
+    text-align: center;
+    margin-top: 0.5rem;
 }
