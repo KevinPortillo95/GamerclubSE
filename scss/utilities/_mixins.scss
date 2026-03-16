@@ -1,0 +1,35 @@
+@use "./variables" as *;
+
+
+@mixin bg-dark {
+    background-color: $color-bg;
+}
+
+@mixin text-orange {
+    color: $color-primary;
+}
+
+@mixin title {
+    color: $color-primary;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin tablet {
+    @media (min-width: 769px) {
+        @content;
+    }
+}

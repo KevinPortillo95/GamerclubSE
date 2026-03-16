@@ -1,228 +1,218 @@
+/* ========================
+RESETEO DE ESTILOS
+======================== */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Color base */
-.html, 
-.body {
-    height: 100%;
-    background-color: #0E0E0E;
+/* ========================
+ESTILOS GLOBALES
+======================== */
+html,
+body {
+  height: 100%;
+  background-color: #0E0E0E;
 }
 
+/* ========================
+ESTILOS DEL HEADER
+======================== */
 .header-gc {
-    background-color: #0E0E0E;
+  background-color: #0E0E0E;
+}
+.header-gc .navbar-nav {
+  font-size: 1.4rem;
+  display: flex;
+  gap: 1rem;
+  padding-right: 4rem;
+}
+.header-gc .nav-item .nav-link {
+  color: #FD8600;
+  text-decoration: none;
 }
 
-/* Modificaciones navbar */
-.navbar-nav{
-    font-size: 1.4rem;
-    display: flex;
-    gap: 1rem;
-    padding-right: 4rem;
-}
-
-.nav-item .nav-link {
-    color: #FD8600;
-    text-decoration: none;
-}
-
-/* Circulos naranjas para que se note en imagenes blancas */
+/* ========================
+CAROUSEL BOTONES
+======================== */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: #FD8600;
-    border-radius: 50%
+  background-color: #FD8600;
+  border-radius: 50%;
 }
 
-/* Footer */
+/* ========================
+ESTILOS DEL FOOTER
+======================== */
 .barrainferior {
-    background-color: #0E0E0E
+  background-color: #0E0E0E;
+}
+.barrainferior .parrafoinferior {
+  color: #FDFDFD;
+}
+.barrainferior .listaredesinferior {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.barrainferior .listaredesinferior .linkredesinferior {
+  color: #FD8600;
+  text-decoration: none;
 }
 
-.parrafoinferior {
-    color: #FDFDFD;
-}
-
-.listaredesinferior {
-    display: flex;
-    list-style: none;
-    justify-content: flex-end;
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
-}
-
-.linkredesinferior {
-    color: #FD8600;
-    text-decoration: none;
-    
-}
-
-/* Main index */
+/* ========================
+TITULO PRINCIPAL
+======================== */
 .tituloprincipal {
-    background-color: #0E0E0E;
-    color: #FD8600;
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 2rem;
-    margin: 0 auto;
+  background-color: #0E0E0E;
+  color: #FD8600;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin: 0;
 }
 
+/* ========================
+SECCION VIDEO
+======================== */
 .Seccionvideo {
-    background-color: #0E0E0E;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    gap: 1rem;
+  background-color: #0E0E0E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
 }
-
-.Video {
-    width: 100%;
-    max-width: 480px;
-    height: auto;
-    aspect-ratio: 480/768;
+.Seccionvideo .Video {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  aspect-ratio: 480/768;
 }
-
-.Parrafodevideo {
-    color: #FD8600;
-    width: 100%;
-    max-width: 480px;
-    text-align: justify;
-    font-size: 1rem;
+.Seccionvideo .Parrafodevideo {
+  color: #FD8600;
+  width: 100%;
+  max-width: 480px;
+  text-align: justify;
+  font-size: 1rem;
 }
-
 @media (min-width: 769px) {
-    .Seccionvideo {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0 auto;
-        padding: 3rem;
-        gap: 3rem;
-    }
-
-    .Video {
-        flex: 45%;
-        max-width: 45%;
-        height: auto;
-        object-fit: contain;
-    }
-
-    .Parrafodevideo {
-        flex: 45%;
-        max-width: 45%;
-        text-align: left;
-        font-size: 1.8rem;
-    }
+  .Seccionvideo {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    gap: 3rem;
+  }
+  .Seccionvideo .Video {
+    flex: 45%;
+    max-width: 45%;
+    object-fit: contain;
+  }
+  .Seccionvideo .Parrafodevideo {
+    flex: 45%;
+    font-size: 1.8rem;
+    text-align: left;
+  }
 }
 
-/* Quienes somos */
-
-.qstitulo {
-    background-color: #0E0E0E;
-    color: #FD8600;
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 1rem;
-    margin: 0 auto;
+/* ========================
+QUIENES SOMOS
+======================== */
+.quienes-somos {
+  background-color: #0E0E0E;
+  padding: 0;
+}
+.quienes-somos .qstitulo {
+  background-color: #0E0E0E;
+  color: #FD8600;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.quienes-somos .qsimagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.quienes-somos .qstexto {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.quienes-somos .qstexto .qsparrafo {
+  color: #FD8600;
+  text-align: justify;
+  font-size: 1rem;
 }
 
-.qsimagen {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.quienes-somos{
-    background-color: #0E0E0E;
-    padding: 0;
-}
-
-.qstexto {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 1rem;
-}
-
-.qsparrafo {
-    color: #FD8600;
-    text-align: justify;
-    font-size: 1rem;
-    margin: 0 auto;
-}
-
-/* Donde encontrarnos */
-
+/* ========================
+DONDE ENCONTRARNOS
+======================== */
 .donde-encontrarnos {
-    background-color: #0E0E0E;
-    padding: 2rem;
+  background-color: #0E0E0E;
+  padding: 2rem;
+}
+.donde-encontrarnos .detitulo {
+  color: #FD8600;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.donde-encontrarnos .deparrafo {
+  color: #FD8600;
+  text-align: justify;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.donde-encontrarnos .demapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-.detitulo {
-    color: #FD8600;
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-}
-
-.deparrafo {
-    color: #FD8600;
-    text-align: justify;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-.demapa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-/* Canje de Juegos */
-
+/* ========================
+CANJE DE JUEGOS
+======================== */
 .canjedj {
-    background-color: #0E0E0E;
-    padding: 2rem;
+  background-color: #0E0E0E;
+  padding: 2rem;
 }
-
 .canjedjtitulo {
-    color: #FD8600;
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+  color: #FD8600;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
-
 .canjedjdescripcion {
-    color: #FD8600;
-    text-align: justify;
-    font-size: 1rem;
-    margin: 0 auto;
-    max-width: 800px;
+  color: #FD8600;
+  text-align: justify;
+  font-size: 1rem;
+  margin: 0 auto;
+  max-width: 800px;
 }
-
 .canjedjgrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
-
 .canjedjimagen {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.canjedjconsola, .canjedjprecio {
+  color: #FD8600;
+  text-align: center;
+  margin-top: 0.5rem;
 }
 
-.canjedjtitulo, .canjedjconsola, .canjedjprecio {
-    color: #FD8600;
-    text-align: center;
-    margin-top: 0.5rem;
-}
+/*# sourceMappingURL=style.css.map */

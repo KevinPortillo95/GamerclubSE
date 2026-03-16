@@ -1,0 +1,35 @@
+@use "../utilities/variables" as *;
+
+
+/* ========================
+ESTILOS DEL HEADER
+======================== */
+.header-gc {
+
+    background-color: $color-bg;
+
+    .navbar-nav {
+        font-size: 1.4rem;
+        display: flex;
+        gap: 1rem;
+        padding-right: 4rem;
+    }
+
+    .nav-item {
+
+        .nav-link {
+            color: $color-primary;
+            text-decoration: none;
+        }
+    }
+}
+
+/* ========================
+CAROUSEL BOTONES
+======================== */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: $color-primary;
+    border-radius: 50%;
+}
